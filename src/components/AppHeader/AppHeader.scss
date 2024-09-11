@@ -1,0 +1,9 @@
+@import "../../assets/styles/setup/setup";
+
+.header-icon {
+  cursor: pointer;
+  transition: 0.4s;
+  &:hover {
+    filter: brightness(0.8);
+  }
+}
