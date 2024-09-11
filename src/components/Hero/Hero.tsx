@@ -50,7 +50,7 @@ export const Hero = () => {
               transition={{ duration: 1, delay: 1.2 }}
               className="hero-img"
             >
-              <img className="rounded" src={profile_img} alt="" />
+              <img src={profile_img} alt="" />
             </motion.div>
           </div>
         </div>
