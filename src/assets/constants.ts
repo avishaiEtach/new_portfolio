@@ -3,6 +3,7 @@ import project2 from "../assets/images/project-2.png";
 import project3 from "../assets/images/project-3.png";
 import project4 from "../assets/images/project-4.png";
 import project5 from "../assets/images/project-5.png";
+import project6 from "../assets/images/project-6.png";
 import { RiReactjsLine } from "react-icons/ri";
 import { FaHtml5 } from "react-icons/fa";
 import { FaCss3Alt } from "react-icons/fa";
@@ -66,6 +67,23 @@ export const Education_CONTENT = [
 ];
 
 export const PROJECTS = [
+  {
+    title: "Live Chat App",
+    image: project6,
+    description:
+      "A fully functional live chat application featuring user authentication with login and signup pages. Users can explore a list of conversations, select one, and engage in real-time messaging. With seamless navigation, online status updates, and live chat functionality powered by Socket.io, enjoy a smooth and interactive chat experience.",
+    technologies: [
+      "HTML",
+      "CSS",
+      "React",
+      "Sass",
+      "Node.js",
+      "Express",
+      "MongoDB",
+      "Socket.io",
+    ],
+    link: "https://live-chat-4ydd.onrender.com",
+  },
   {
     title: "Pizza Carve Website",
     image: project1,
