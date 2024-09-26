@@ -89,7 +89,7 @@ export const PROJECTS = [
     image: project1,
     description:
       "A fully functional pizza shop website featuring an interactive menu. Customers can explore our mouthwatering pizza selection. With seamless navigation and real-time updates, enjoy a hassle-free pizza experience at Pizza Carve!",
-    technologies: ["HTML", "CSS", "React", "Sass", "Aos"],
+    technologies: ["HTML", "CSS", "React", "Sass", "Aos", "EmailJS"],
     link: "https://pizzacarve.onrender.com/",
   },
   {
