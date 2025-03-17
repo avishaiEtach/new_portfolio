@@ -4,6 +4,7 @@ import project3 from "../assets/images/project-3.png";
 import project4 from "../assets/images/project-4.png";
 import project5 from "../assets/images/project-5.png";
 import project6 from "../assets/images/project-6.png";
+import project7 from "../assets/images/project-7.png";
 import { RiReactjsLine } from "react-icons/ri";
 import { FaHtml5 } from "react-icons/fa";
 import { FaCss3Alt } from "react-icons/fa";
@@ -58,15 +59,26 @@ export const Education_CONTENT = [
     company: "Hispin College",
     description: `Graduated with honors Practical Engineering`,
   },
-  {
-    year: "2014-2016",
-    role: "Diploma Electronics and Computers",
-    company: "Hispin College",
-    description: `Graduated with honors Practical Engineering`,
-  },
 ];
 
 export const PROJECTS = [
+  {
+    title: "HomeHaven – E-commerce Platform for Home Design",
+    image: project7,
+    description:
+      "Developed a fully functional online store with features like product filtering, reviews, and a dynamic shopping cart. Built with React.js, Node.js, MongoDB, Express.js, and SCSS, HomeHaven provides users with an intuitive shopping experience for home products such as furniture and home décor. The platform includes smooth product browsing, seamless checkout processes, and detailed product pages, providing a comprehensive online shopping experience for home design enthusiasts.",
+    technologies: [
+      "HTML",
+      "CSS",
+      "React",
+      "Sass",
+      "Node.js",
+      "Express",
+      "MongoDB",
+      "Socket.io",
+    ],
+    link: "https://homehaven-2ysw.onrender.com",
+  },
   {
     title: "Live Chat App",
     image: project6,
@@ -92,22 +104,22 @@ export const PROJECTS = [
     technologies: ["HTML", "CSS", "React", "Sass", "Aos", "EmailJS"],
     link: "https://pizzacarve.onrender.com/",
   },
-  {
-    title: "Jurassic Jungle Web App",
-    image: project2,
-    description:
-      "Jurassic Jungle is an educational platform dedicated to all things dinosaurs. Dive into a rich collection of data on prehistoric creatures, read fascinating articles, and explore the world of dinosaurs like never before. Users can sign up, become members, contribute by writing their own articles, and even add new dinosaurs to the database. With a comprehensive admin panel, site management is streamlined for administrators, ensuring a dynamic and evolving learning environment. Step into Jurassic Jungle and unleash your inner paleontologist!",
-    technologies: [
-      "HTML",
-      "CSS",
-      "React",
-      "Sass",
-      "Node.js",
-      "Express",
-      "MongoDB",
-    ],
-    link: "https://jurassicjungle.onrender.com",
-  },
+  // {
+  //   title: "Jurassic Jungle Web App",
+  //   image: project2,
+  //   description:
+  //     "Jurassic Jungle is an educational platform dedicated to all things dinosaurs. Dive into a rich collection of data on prehistoric creatures, read fascinating articles, and explore the world of dinosaurs like never before. Users can sign up, become members, contribute by writing their own articles, and even add new dinosaurs to the database. With a comprehensive admin panel, site management is streamlined for administrators, ensuring a dynamic and evolving learning environment. Step into Jurassic Jungle and unleash your inner paleontologist!",
+  //   technologies: [
+  //     "HTML",
+  //     "CSS",
+  //     "React",
+  //     "Sass",
+  //     "Node.js",
+  //     "Express",
+  //     "MongoDB",
+  //   ],
+  //   link: "https://jurassicjungle.onrender.com",
+  // },
   {
     title: "Covid-19 Tracker App",
     image: project3,
