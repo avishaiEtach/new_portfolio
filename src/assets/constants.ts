@@ -78,6 +78,7 @@ export const PROJECTS = [
       "Socket.io",
     ],
     link: "https://homehaven-2ysw.onrender.com",
+    gitLink: "https://github.com/avishaiEtach/home-haven-frontend",
   },
   {
     title: "Live Chat App",
@@ -95,6 +96,7 @@ export const PROJECTS = [
       "Socket.io",
     ],
     link: "https://live-chat-4ydd.onrender.com",
+    gitLink: "https://github.com/avishaiEtach/Live_Chat_fronetend",
   },
   {
     title: "Pizza Carve Website",
@@ -103,6 +105,7 @@ export const PROJECTS = [
       "A fully functional pizza shop website featuring an interactive menu. Customers can explore our mouthwatering pizza selection. With seamless navigation and real-time updates, enjoy a hassle-free pizza experience at Pizza Carve!",
     technologies: ["HTML", "CSS", "React", "Sass", "Aos", "EmailJS"],
     link: "https://pizzacarve.onrender.com/",
+    gitLink: "https://github.com/avishaiEtach/PizzaCarve",
   },
   // {
   //   title: "Jurassic Jungle Web App",
@@ -119,6 +122,7 @@ export const PROJECTS = [
   //     "MongoDB",
   //   ],
   //   link: "https://jurassicjungle.onrender.com",
+  //   gitLink: "https://github.com/avishaiEtach/JurassicJungle",
   // },
   {
     title: "Covid-19 Tracker App",
@@ -127,6 +131,7 @@ export const PROJECTS = [
       "A fully functional app providing real-time COVID-19 status updates for countries worldwide. Features include interactive data visualization and responsive design, built with React.js and disease.sh API ",
     technologies: ["HTML", "CSS", "React", "Sass", "React material UI"],
     link: "https://avishaietach.github.io/Covid-19-Tracker/",
+    gitLink: "https://github.com/avishaiEtach/Covid-19-Tracker",
   },
   {
     title: "MemeGen",
@@ -135,6 +140,7 @@ export const PROJECTS = [
       "A fully functional meme generator with features like customizable templates, text overlay, and easy downloading options. Create and download your own memes effortlessly with a user-friendly interface.",
     technologies: ["HTML", "CSS", "Javascript"],
     link: "https://avishaietach.github.io/sprinit2/",
+    gitLink: "https://github.com/avishaiEtach/sprinit2",
   },
   {
     title: "Minesweeper",
@@ -143,6 +149,7 @@ export const PROJECTS = [
       "A fully functional Minesweeper game with features including customizable difficulty levels, a responsive game board, and intuitive controls. Test your logic and problem-solving skills with an engaging and classic puzzle experience.",
     technologies: ["HTML", "CSS", "Javascript"],
     link: "https://avishaietach.github.io/Sprint1/",
+    gitLink: "https://github.com/avishaiEtach/Sprint1",
   },
 ];
 

@@ -1,5 +1,6 @@
 import { PROJECTS } from "../../assets/constants";
 import { motion } from "framer-motion";
+import { FaGithub } from "react-icons/fa";
 import "./Projects.scss";
 
 export const Projects = () => {
@@ -38,9 +39,17 @@ export const Projects = () => {
               transition={{ duration: 1 }}
               className="w-full max-w-xl lg:w-3/4"
             >
-              <a href={project.link} target="_blank" className="link-header">
-                <h6 className="mb-2 font-semibold">{project.title}</h6>
-              </a>
+              <div className="flex gap-8 items-center">
+                <a href={project.link} target="_blank" className="link-header">
+                  <h6 className="mb-2 font-semibold">{project.title}</h6>
+                </a>
+                <a
+                  href={project.gitLink}
+                  className="mb-2 project-git-link text-xl"
+                >
+                  <FaGithub />
+                </a>
+              </div>
               <p className="mb-4 text-neutral-400">{project.description}</p>
               <div className="flex flex-wrap">
                 {project.technologies.map((tech, index) => (
